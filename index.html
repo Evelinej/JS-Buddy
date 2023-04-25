@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>Tamagotchi | Digezz | HS22</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Eveline Junod">
+    <meta name="description" content="Ein Tamagotchi in JavaScript erstellt. Dies ist ein Digezz-Projekt der Fachhochschule Graubünden im Studiengang Multimedia Production.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="name">Tamagotchi</h1>
+        <img id="image" src="img/Digezz-II_animation_Neutral.gif">
+
+        <div class="button-div">
+            <button id="btnspielen" onclick=spielen() class="button" role="button">Spielen</button><button
+                id="btnfuettern" onclick=fuettern() class="button" role="button">Füttern</button><button
+                id="btnschlafen" onclick=schlafen() class="button" role="button">Schlafen</button>
+                <br><br><br>
+                <button id="btnspeichern" onclick=speichern() class="button" role="button">Speichern</button>
+        </div>
+    </div>
+
+    <div class="quote">
+        <q><a href="https://www.digezz.ch/" target="_blank">Digezz Projekt Herbstsemester 2022</a></q>
+    </div>
+
+    <script defer src="./node.js"></script>
+
+</body>
+
+</html>
