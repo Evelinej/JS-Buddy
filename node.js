@@ -131,15 +131,15 @@ function Werteverringern(){
 
 function scoreDisplay() {
     if (score >= 200){
-        document.getElementById('image').src = "img/Digezz-II_animation_MaxHappy.gif";
+        document.getElementById('status').innerText = ":D";
     } if (score <= 150) {
-        document.getElementById('image').src = "img/Digezz-II_animation_Happy.gif";
+        document.getElementById('status').innerText = ":)";
     } if (score <= 100) {
-        document.getElementById('image').src = "img/Digezz-II_animation_Neutral.gif";
+        document.getElementById('status').innerText = ":/";
     } if (score <= 50) {
-        document.getElementById('image').src = "img/Digezz-II_animation_Sad.gif";
+        document.getElementById('status').innerText = "T_T";
     } if (score <= 0) {
-        document.getElementById('image').src = "img/Digezz-II_animation_Death.gif";
+        document.getElementById('status').innerText = "XoX";
         clearInterval(stopDisplay);
     } 
 };
