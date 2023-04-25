@@ -1,5 +1,5 @@
 # JS-Buddy
-I wanted to learn JavaScript better, so I made a Tamagotchi in JS for School.
+I wanted to learn JavaScript better, so I made a Tamagotchi in JS for school.
 
 You can check the values in the console, if you want.
 
