@@ -5,4 +5,4 @@ I wanted to understand and use JavaScript better, so I made a Tamagotchi in JS f
 
 You can check the values in the console, if you want.
 
-There were some issues I should fix. Like cheating with the save-function ¯\_(ツ)_/¯
+There are some issues to fix. Like cheating with the save-function ¯\_(ツ)_/¯
